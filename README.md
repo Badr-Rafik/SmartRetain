@@ -32,9 +32,6 @@ This project covers:
 - Model evaluation: accuracy, precision, recall, F1-score, ROC-AUC.
 - Model optimization: GridSearchCV tuning on the best model.
 
-### Important Note
-Step 10 cloud deployment is intentionally skipped. Instead, the project uses a local Streamlit user interface, which is simpler and easier to explain for this assignment.
-
 ### Main Files
 - `data_preprocessing.py`: data loading, cleaning, EDA, and feature engineering
 - `train.py`: model training, evaluation, tuning, and model saving
@@ -88,10 +85,3 @@ The application uses the dataset `Bank_Churn.csv` located in the project folder.
 ## Expected Output
 The app lets the user enter customer details such as age, credit score, balance, account activity, and salary. It then predicts whether the customer is likely to churn and shows the churn probability percentage.
 
----
-
-## Notes
-- The project intentionally uses simple, beginner-friendly code.
-- No complicated advanced object-oriented design is required.
-- The model is trained using classic scikit-learn tools and a simple local app.
-- The project is designed for easy classroom explanation and demonstration.
